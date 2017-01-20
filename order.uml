@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QIJFwMK0Eea0j8koIuM0Zw" name="New Lifeline">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_TO1J4MK0Eea0j8koIuM0Zw" name="OrderTestDiagram1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKHJ0MK1Eea0j8koIuM0Zw" name="" type="_9aqdgMK0Eea0j8koIuM0Zw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3UkMgMK1Eea0j8koIuM0Zw" name="" type="_9anaMMK0Eea0j8koIuM0Zw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GbwOEMK2Eea0j8koIuM0Zw" name="" type="_9aoBQMK0Eea0j8koIuM0Zw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kKF7sMK1Eea0j8koIuM0Zw" name="AddMoviesLifeline" represents="_kKHJ0MK1Eea0j8koIuM0Zw" coveredBy="_sEpaoMK5Eea0j8koIuM0Zw _sEqowcK5Eea0j8koIuM0Zw _sEqowMK5Eea0j8koIuM0Zw _PvBMYMK6Eea0j8koIuM0Zw _e-BGIcK6Eea0j8koIuM0Zw _aYugkcK7Eea0j8koIuM0Zw _1eMSAcK7Eea0j8koIuM0Zw _WQQ5gNl8EeaL7tBjoTNlxA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_3Ui-YMK1Eea0j8koIuM0Zw" name="MainFrameLifeline" represents="_3UkMgMK1Eea0j8koIuM0Zw" coveredBy="_xsGLUMK5Eea0j8koIuM0Zw _PvBMYcK6Eea0j8koIuM0Zw _e-BGIMK6Eea0j8koIuM0Zw _DJc9kMK7Eea0j8koIuM0Zw _aYvHoMK7Eea0j8koIuM0Zw _1eMSAMK7Eea0j8koIuM0Zw _ZXxEsMN9Eea6QviBjNSVBA _p-4n8MN9Eea6QviBjNSVBA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Gbu_8MK2Eea0j8koIuM0Zw" name="ControllerLifeline" represents="_GbwOEMK2Eea0j8koIuM0Zw" coveredBy="_HIRgUMN7Eea6QviBjNSVBA _ZXxrwMN9Eea6QviBjNSVBA _p-4A4MN9Eea6QviBjNSVBA _wymIgNvIEeaVoY1wcQVfnQ _KcE2gNytEeaxmvFtNWuG6w _339CoN4uEeaafdG6xyjDKg"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_339CoN4uEeaafdG6xyjDKg" name="TestInvariant" covered="_Gbu_8MK2Eea0j8koIuM0Zw">
+      <invariant xmi:type="uml:Constraint" xmi:id="_34BUEN4uEeaafdG6xyjDKg" name=""/>
+    </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEpaoMK5Eea0j8koIuM0Zw" name="ActionExecSpecStart" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_sEqowMK5Eea0j8koIuM0Zw" name="AddMoviesAcExSp" covered="_kKF7sMK1Eea0j8koIuM0Zw" finish="_sEqowcK5Eea0j8koIuM0Zw" start="_sEpaoMK5Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WQQ5gNl8EeaL7tBjoTNlxA" name="startAdd_MessageRecv" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_WQPrYNl8EeaL7tBjoTNlxA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_DJc9kMK7Eea0j8koIuM0Zw" name="MainFrameAcExSpec2" covered="_3Ui-YMK1Eea0j8koIuM0Zw" finish="_1eMSAMK7Eea0j8koIuM0Zw" start="_aYvHoMK7Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aYvHoMK7Eea0j8koIuM0Zw" name="getUserInput_MessageRecv" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_aYugkMK7Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aYugkcK7Eea0j8koIuM0Zw" name="getUserInput_MessageSend" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_aYugkMK7Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZXxEsMN9Eea6QviBjNSVBA" name="getInput_MessageSend" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_ZXvPgMN9Eea6QviBjNSVBA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_HIRgUMN7Eea6QviBjNSVBA" name="ControllerAcExSpec" covered="_Gbu_8MK2Eea0j8koIuM0Zw" finish="_p-4A4MN9Eea6QviBjNSVBA" start="_ZXxrwMN9Eea6QviBjNSVBA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZXxrwMN9Eea6QviBjNSVBA" name="getInput_MessageRecv" covered="_Gbu_8MK2Eea0j8koIuM0Zw" message="_ZXvPgMN9Eea6QviBjNSVBA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wymIgNvIEeaVoY1wcQVfnQ" name="MessageSend" covered="_Gbu_8MK2Eea0j8koIuM0Zw" message="_wyhQANvIEeaVoY1wcQVfnQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p-4A4MN9Eea6QviBjNSVBA" name="getInput_MessageSend0" covered="_Gbu_8MK2Eea0j8koIuM0Zw" message="_p-2LsMN9Eea6QviBjNSVBA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p-4n8MN9Eea6QviBjNSVBA" name="getInput_MessageRecv0" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_p-2LsMN9Eea6QviBjNSVBA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1eMSAMK7Eea0j8koIuM0Zw" name="getUserInput_Message0Send" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_1eLD4MK7Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1eMSAcK7Eea0j8koIuM0Zw" name="getUserInput_Message0Recv" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_1eLD4MK7Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PvBMYMK6Eea0j8koIuM0Zw" name="getController_MessageSend" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_PvAlUMK6Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_xsGLUMK5Eea0j8koIuM0Zw" name="MainFrameAcExSp" covered="_3Ui-YMK1Eea0j8koIuM0Zw" finish="_e-BGIMK6Eea0j8koIuM0Zw" start="_PvBMYcK6Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PvBMYcK6Eea0j8koIuM0Zw" name="getController_MessageRecv" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_PvAlUMK6Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e-BGIMK6Eea0j8koIuM0Zw" name="getController_MessageSend0" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_e9_4AMK6Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e-BGIcK6Eea0j8koIuM0Zw" name="getController_MessageRecv0" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_e9_4AMK6Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:DestructionOccurrenceSpecification" xmi:id="_KcE2gNytEeaxmvFtNWuG6w" name="DestructionOccurrenceSpecification0" covered="_Gbu_8MK2Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEqowcK5Eea0j8koIuM0Zw" name="ActionExecSpecFinish" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
+    <message xmi:type="uml:Message" xmi:id="_PvAlUMK6Eea0j8koIuM0Zw" name="getController_call" receiveEvent="_PvBMYcK6Eea0j8koIuM0Zw" sendEvent="_PvBMYMK6Eea0j8koIuM0Zw" signature="_9anaMcK0Eea0j8koIuM0Zw"/>
+    <message xmi:type="uml:Message" xmi:id="_e9_4AMK6Eea0j8koIuM0Zw" name="getController_return" messageSort="reply" receiveEvent="_e-BGIcK6Eea0j8koIuM0Zw" sendEvent="_e-BGIMK6Eea0j8koIuM0Zw" signature="_9anaMcK0Eea0j8koIuM0Zw"/>
+    <message xmi:type="uml:Message" xmi:id="_aYugkMK7Eea0j8koIuM0Zw" name="getUserInput_call" receiveEvent="_aYvHoMK7Eea0j8koIuM0Zw" sendEvent="_aYugkcK7Eea0j8koIuM0Zw" signature="_aX2W0MK7Eea0j8koIuM0Zw"/>
+    <message xmi:type="uml:Message" xmi:id="_1eLD4MK7Eea0j8koIuM0Zw" name="getUserInput_return" messageSort="reply" receiveEvent="_1eMSAcK7Eea0j8koIuM0Zw" sendEvent="_1eMSAMK7Eea0j8koIuM0Zw" signature="_aX2W0MK7Eea0j8koIuM0Zw"/>
+    <message xmi:type="uml:Message" xmi:id="_ZXvPgMN9Eea6QviBjNSVBA" name="getInput_call" receiveEvent="_ZXxrwMN9Eea6QviBjNSVBA" sendEvent="_ZXxEsMN9Eea6QviBjNSVBA" signature="_ZW13oMN9Eea6QviBjNSVBA"/>
+    <message xmi:type="uml:Message" xmi:id="_p-2LsMN9Eea6QviBjNSVBA" name="getInput_return" messageSort="reply" receiveEvent="_p-4n8MN9Eea6QviBjNSVBA" sendEvent="_p-4A4MN9Eea6QviBjNSVBA" signature="_ZW13oMN9Eea6QviBjNSVBA"/>
+    <message xmi:type="uml:Message" xmi:id="_WQPrYNl8EeaL7tBjoTNlxA" name="startAdd" messageSort="asynchSignal" receiveEvent="_WQQ5gNl8EeaL7tBjoTNlxA" signature="_WPUeUNl8EeaL7tBjoTNlxA"/>
+    <message xmi:type="uml:Message" xmi:id="_wyhQANvIEeaVoY1wcQVfnQ" name="askUser" messageSort="asynchSignal" sendEvent="_wymIgNvIEeaVoY1wcQVfnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9allAMK0Eea0j8koIuM0Zw" memberEnd="_9allBMK0Eea0j8koIuM0Zw _9allA8K0Eea0j8koIuM0Zw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9allAcK0Eea0j8koIuM0Zw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9allAsK0Eea0j8koIuM0Zw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9allA8K0Eea0j8koIuM0Zw" name="mainframe" type="_9anaMMK0Eea0j8koIuM0Zw" association="_9allAMK0Eea0j8koIuM0Zw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9allBMK0Eea0j8koIuM0Zw" name="addmovies" type="_9aqdgMK0Eea0j8koIuM0Zw" association="_9allAMK0Eea0j8koIuM0Zw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9anaMMK0Eea0j8koIuM0Zw" name="MainFrame">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9anaMcK0Eea0j8koIuM0Zw" name="getController" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9anaMsK0Eea0j8koIuM0Zw" name="result" type="_9aoBQMK0Eea0j8koIuM0Zw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZtZEEMtMEeaNSew1WH5vrg" name="param1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_F_xdUMwlEeasFZqfrHji1Q" name="param2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aX2W0MK7Eea0j8koIuM0Zw" name="getUserInput"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9aoBQMK0Eea0j8koIuM0Zw" name="Controller" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9aoBQcK0Eea0j8koIuM0Zw" name="addMovie" visibility="package">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9aoBQsK0Eea0j8koIuM0Zw" name="t">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9aoBQ8K0Eea0j8koIuM0Zw" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9aoBRMK0Eea0j8koIuM0Zw" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9aoBRcK0Eea0j8koIuM0Zw" name="getAllMovies">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9aoBRsK0Eea0j8koIuM0Zw" type="_9apPYMK0Eea0j8koIuM0Zw" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9aoBR8K0Eea0j8koIuM0Zw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9aoBSMK0Eea0j8koIuM0Zw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZW13oMN9Eea6QviBjNSVBA" name="getInput"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9apPYMK0Eea0j8koIuM0Zw" name="Movie">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9apPYcK0Eea0j8koIuM0Zw" name="title" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9apPYsK0Eea0j8koIuM0Zw" name="year" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9apPY8K0Eea0j8koIuM0Zw" name="Show All Movies"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9ap2cMK0Eea0j8koIuM0Zw" memberEnd="_9ap2dMK0Eea0j8koIuM0Zw _9ap2c8K0Eea0j8koIuM0Zw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9ap2ccK0Eea0j8koIuM0Zw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9ap2csK0Eea0j8koIuM0Zw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9ap2c8K0Eea0j8koIuM0Zw" name="mainframe" type="_9anaMMK0Eea0j8koIuM0Zw" association="_9ap2cMK0Eea0j8koIuM0Zw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9ap2dMK0Eea0j8koIuM0Zw" name="showallmovies" type="_9apPY8K0Eea0j8koIuM0Zw" association="_9ap2cMK0Eea0j8koIuM0Zw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9aqdgMK0Eea0j8koIuM0Zw" name="AddMovies"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9aqdgcK0Eea0j8koIuM0Zw" memberEnd="_9aqdhcK0Eea0j8koIuM0Zw _9aqdhMK0Eea0j8koIuM0Zw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9aqdgsK0Eea0j8koIuM0Zw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9aqdg8K0Eea0j8koIuM0Zw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9aqdhMK0Eea0j8koIuM0Zw" name="mainframe" type="_9anaMMK0Eea0j8koIuM0Zw" association="_9aqdgcK0Eea0j8koIuM0Zw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9aqdhcK0Eea0j8koIuM0Zw" name="controller" type="_9aoBQMK0Eea0j8koIuM0Zw" association="_9aqdgcK0Eea0j8koIuM0Zw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9arEkMK0Eea0j8koIuM0Zw" memberEnd="_9arElMK0Eea0j8koIuM0Zw _9arEk8K0Eea0j8koIuM0Zw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9arEkcK0Eea0j8koIuM0Zw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9arEksK0Eea0j8koIuM0Zw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9arEk8K0Eea0j8koIuM0Zw" name="controller" type="_9aoBQMK0Eea0j8koIuM0Zw" association="_9arEkMK0Eea0j8koIuM0Zw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9arElMK0Eea0j8koIuM0Zw" name="datastorage" type="_9arElcK0Eea0j8koIuM0Zw" association="_9arEkMK0Eea0j8koIuM0Zw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9arElcK0Eea0j8koIuM0Zw" name="DataStorage">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9arElsK0Eea0j8koIuM0Zw" name="storeMovie">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9arEl8K0Eea0j8koIuM0Zw" name="m" type="_9apPYMK0Eea0j8koIuM0Zw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9arEmMK0Eea0j8koIuM0Zw" name="result" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9arEmcK0Eea0j8koIuM0Zw" name="retrieveAllMovies">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9arEmsK0Eea0j8koIuM0Zw" name="return" type="_9apPYMK0Eea0j8koIuM0Zw" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9arEm8K0Eea0j8koIuM0Zw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9arEnMK0Eea0j8koIuM0Zw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Signal" xmi:id="_WPUeUNl8EeaL7tBjoTNlxA" name="startAdd"/>
+</uml:Model>
