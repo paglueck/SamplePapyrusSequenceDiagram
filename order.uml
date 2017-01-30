@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QIJFwMK0Eea0j8koIuM0Zw" name="New Lifeline">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_TO1J4MK0Eea0j8koIuM0Zw" name="OrderTestDiagram1">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKHJ0MK1Eea0j8koIuM0Zw" name="" type="_9aqdgMK0Eea0j8koIuM0Zw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_3UkMgMK1Eea0j8koIuM0Zw" name="" type="_9anaMMK0Eea0j8koIuM0Zw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_GbwOEMK2Eea0j8koIuM0Zw" name="" type="_9aoBQMK0Eea0j8koIuM0Zw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKHJ0MK1Eea0j8koIuM0Zw" name="AddMoviesP" type="_9aqdgMK0Eea0j8koIuM0Zw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3UkMgMK1Eea0j8koIuM0Zw" name="MainFrameP" type="_9anaMMK0Eea0j8koIuM0Zw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GbwOEMK2Eea0j8koIuM0Zw" name="ControllerP" type="_9aoBQMK0Eea0j8koIuM0Zw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_kKF7sMK1Eea0j8koIuM0Zw" name="AddMoviesLifeline" represents="_kKHJ0MK1Eea0j8koIuM0Zw" coveredBy="_sEpaoMK5Eea0j8koIuM0Zw _sEqowcK5Eea0j8koIuM0Zw _sEqowMK5Eea0j8koIuM0Zw _PvBMYMK6Eea0j8koIuM0Zw _e-BGIcK6Eea0j8koIuM0Zw _aYugkcK7Eea0j8koIuM0Zw _1eMSAcK7Eea0j8koIuM0Zw _WQQ5gNl8EeaL7tBjoTNlxA _nTcRAOCrEeaIiLMpVNR_sg _nTetQOCrEeaIiLMpVNR_sg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_3Ui-YMK1Eea0j8koIuM0Zw" name="MainFrameLifeline" represents="_3UkMgMK1Eea0j8koIuM0Zw" coveredBy="_xsGLUMK5Eea0j8koIuM0Zw _PvBMYcK6Eea0j8koIuM0Zw _e-BGIMK6Eea0j8koIuM0Zw _DJc9kMK7Eea0j8koIuM0Zw _aYvHoMK7Eea0j8koIuM0Zw _1eMSAMK7Eea0j8koIuM0Zw _ZXxEsMN9Eea6QviBjNSVBA _p-4n8MN9Eea6QviBjNSVBA _nTcRAOCrEeaIiLMpVNR_sg _nTetQOCrEeaIiLMpVNR_sg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_Gbu_8MK2Eea0j8koIuM0Zw" name="ControllerLifeline" represents="_GbwOEMK2Eea0j8koIuM0Zw" coveredBy="_HIRgUMN7Eea6QviBjNSVBA _ZXxrwMN9Eea6QviBjNSVBA _p-4A4MN9Eea6QviBjNSVBA _wymIgNvIEeaVoY1wcQVfnQ _KcE2gNytEeaxmvFtNWuG6w _339CoN4uEeaafdG6xyjDKg"/>
     <fragment xmi:type="uml:StateInvariant" xmi:id="_339CoN4uEeaafdG6xyjDKg" name="TestInvariant" covered="_Gbu_8MK2Eea0j8koIuM0Zw">
-      <invariant xmi:type="uml:Constraint" xmi:id="_34BUEN4uEeaafdG6xyjDKg" name=""/>
+      <invariant xmi:type="uml:Constraint" xmi:id="_34BUEN4uEeaafdG6xyjDKg" name="testcc">
+        <specification xmi:type="uml:LiteralString" xmi:id="_xSjWYOVJEeal0ev_6dpWiQ" name="testlitstr" value="title != star wars"/>
+      </invariant>
     </fragment>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WQQ5gNl8EeaL7tBjoTNlxA" name="startAdd_MessageRecv" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_WQPrYNl8EeaL7tBjoTNlxA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aYugkcK7Eea0j8koIuM0Zw" name="getUserInput_MessageSend" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_aYugkMK7Eea0j8koIuM0Zw"/>
@@ -24,14 +26,11 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1eMSAcK7Eea0j8koIuM0Zw" name="getUserInput_Message0Recv" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_1eLD4MK7Eea0j8koIuM0Zw"/>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_nTcRAOCrEeaIiLMpVNR_sg" name="CombinedFragment" covered="_kKF7sMK1Eea0j8koIuM0Zw _3Ui-YMK1Eea0j8koIuM0Zw" interactionOperator="loop">
       <operand xmi:type="uml:InteractionOperand" xmi:id="_nTetQOCrEeaIiLMpVNR_sg" name="InteractionOperand" covered="_kKF7sMK1Eea0j8koIuM0Zw _3Ui-YMK1Eea0j8koIuM0Zw">
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEpaoMK5Eea0j8koIuM0Zw" name="ActionExecSpecStart" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
-        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_sEqowMK5Eea0j8koIuM0Zw" name="AddMoviesAcExSp" covered="_kKF7sMK1Eea0j8koIuM0Zw" finish="_sEqowcK5Eea0j8koIuM0Zw" start="_sEpaoMK5Eea0j8koIuM0Zw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PvBMYMK6Eea0j8koIuM0Zw" name="getController_MessageSend" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_PvAlUMK6Eea0j8koIuM0Zw"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_xsGLUMK5Eea0j8koIuM0Zw" name="MainFrameAcExSp" covered="_3Ui-YMK1Eea0j8koIuM0Zw" finish="_e-BGIMK6Eea0j8koIuM0Zw" start="_PvBMYcK6Eea0j8koIuM0Zw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PvBMYcK6Eea0j8koIuM0Zw" name="getController_MessageRecv" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_PvAlUMK6Eea0j8koIuM0Zw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e-BGIMK6Eea0j8koIuM0Zw" name="getController_MessageSend0" covered="_3Ui-YMK1Eea0j8koIuM0Zw" message="_e9_4AMK6Eea0j8koIuM0Zw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e-BGIcK6Eea0j8koIuM0Zw" name="getController_MessageRecv0" covered="_kKF7sMK1Eea0j8koIuM0Zw" message="_e9_4AMK6Eea0j8koIuM0Zw"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEqowcK5Eea0j8koIuM0Zw" name="ActionExecSpecFinish" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
         <guard xmi:type="uml:InteractionConstraint" xmi:id="_nTfUUOCrEeaIiLMpVNR_sg">
           <specification xmi:type="uml:LiteralString" xmi:id="_nTfUUeCrEeaIiLMpVNR_sg" value="undefined"/>
           <maxint xmi:type="uml:LiteralInteger" xmi:id="_nTfUU-CrEeaIiLMpVNR_sg" value="5"/>
@@ -40,6 +39,9 @@
       </operand>
     </fragment>
     <fragment xmi:type="uml:DestructionOccurrenceSpecification" xmi:id="_KcE2gNytEeaxmvFtNWuG6w" name="DestructionOccurrenceSpecification0" covered="_Gbu_8MK2Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEqowcK5Eea0j8koIuM0Zw" name="ActionExecSpecFinish" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sEpaoMK5Eea0j8koIuM0Zw" name="ActionExecSpecStart" covered="_kKF7sMK1Eea0j8koIuM0Zw" execution="_sEqowMK5Eea0j8koIuM0Zw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_sEqowMK5Eea0j8koIuM0Zw" name="AddMoviesAcExSp" covered="_kKF7sMK1Eea0j8koIuM0Zw" finish="_sEqowcK5Eea0j8koIuM0Zw" start="_sEpaoMK5Eea0j8koIuM0Zw"/>
     <message xmi:type="uml:Message" xmi:id="_PvAlUMK6Eea0j8koIuM0Zw" name="getController_call" receiveEvent="_PvBMYcK6Eea0j8koIuM0Zw" sendEvent="_PvBMYMK6Eea0j8koIuM0Zw" signature="_9anaMcK0Eea0j8koIuM0Zw"/>
     <message xmi:type="uml:Message" xmi:id="_e9_4AMK6Eea0j8koIuM0Zw" name="getController_return" messageSort="reply" receiveEvent="_e-BGIcK6Eea0j8koIuM0Zw" sendEvent="_e-BGIMK6Eea0j8koIuM0Zw" signature="_9anaMcK0Eea0j8koIuM0Zw"/>
     <message xmi:type="uml:Message" xmi:id="_aYugkMK7Eea0j8koIuM0Zw" name="getUserInput_call" receiveEvent="_aYvHoMK7Eea0j8koIuM0Zw" sendEvent="_aYugkcK7Eea0j8koIuM0Zw" signature="_aX2W0MK7Eea0j8koIuM0Zw"/>

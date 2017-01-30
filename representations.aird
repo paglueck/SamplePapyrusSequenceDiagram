@@ -58,6 +58,9 @@
         <target xmi:type="uml:Interaction" href="order.uml#_TO1J4MK0Eea0j8koIuM0Zw"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_8HCzEOC8EeayZ9iwPcJYfg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']"/>
+    </ownedViews>
   </viewpoint:DAnalysis>
   <table:DTable xmi:id="_ii2eUMtLEeaEONU0a903gQ" name="new uml table" headerColumnWidth="433">
     <target xmi:type="uml:Interaction" href="order.uml#_TO1J4MK0Eea0j8koIuM0Zw"/>
@@ -1701,89 +1704,143 @@
     <target xmi:type="uml:Interaction" href="order.uml#_TO1J4MK0Eea0j8koIuM0Zw"/>
     <lines xmi:type="table:DLine" xmi:id="_o9n4st4rEeaafdG6xyjDKg" label="&lt;Lifeline> AddMoviesLifeline">
       <target xmi:type="uml:Lifeline" href="order.uml#_kKF7sMK1Eea0j8koIuM0Zw"/>
-      <lines xmi:type="table:DLine" xmi:id="_4Y4I8N4vEeaafdG6xyjDKg" label="&lt;Message> startAdd">
+      <lines xmi:type="table:DLine" xmi:id="_p5pXoOFCEeaRH9ZzTHtTXg" label="&lt;Message> startAdd">
         <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4Y8aYN4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p5zvsOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y9BcN4vEeaafdG6xyjDKg" label="1" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p5zvseFCEeaRH9ZzTHtTXg" label="1" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y9Bcd4vEeaafdG6xyjDKg" label="" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p50WwOFCEeaRH9ZzTHtTXg" label="" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y9ogN4vEeaafdG6xyjDKg" label="AddMovies" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p52L8OFCEeaRH9ZzTHtTXg" label="AddMovies" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y9ogd4vEeaafdG6xyjDKg" label="asynchSignal" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p52zAOFCEeaRH9ZzTHtTXg" label="startAdd" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y-2oN4vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p54oMOFCEeaRH9ZzTHtTXg" label="asynchSignal" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y_dsN4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p54oMeFCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4Y_dsd4vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p54oMuFCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvTdoN4xEeaafdG6xyjDKg" label="startAdd" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p55PQOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y4wAN4vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_zz4AYOYJEeapNuX70s7GQg" label="found" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5p-sOFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
-      <lines xmi:type="table:DLine" xmi:id="_4Y4wAd4vEeaafdG6xyjDKg" label="&lt;Message> getUserInput_call">
+      <lines xmi:type="table:DLine" xmi:id="_p5qlwOFCEeaRH9ZzTHtTXg" label="&lt;Message> getUserInput_call">
         <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJOsN4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6GqoOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJOsd4vEeaafdG6xyjDKg" label="2" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6HRsOFCEeaRH9ZzTHtTXg" label="2" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJ1wN4vEeaafdG6xyjDKg" label="AddMovies" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6JG4OFCEeaRH9ZzTHtTXg" label="AddMovies" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJ1wd4vEeaafdG6xyjDKg" label="MainFrame" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6JG4eFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJ1wt4vEeaafdG6xyjDKg" label="synchCall" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Jt8OFCEeaRH9ZzTHtTXg" label="getUserInput" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZJ1w94vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Jt8eFCEeaRH9ZzTHtTXg" label="synchCall" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZKc0N4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Jt8uFCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZKc0d4vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Jt8-FCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvUEsN4xEeaafdG6xyjDKg" label="getUserInput" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6KVAOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y4wAt4vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_z0YWsOYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5rM0OFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_p5rM0eFCEeaRH9ZzTHtTXg" label="&lt;Message> getController_call">
+        <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
+        <cells xmi:type="table:DCell" xmi:id="_p6MKMOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6MKMeFCEeaRH9ZzTHtTXg" label="7" column="_o9qVRt4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6MxQOFCEeaRH9ZzTHtTXg" label="AddMovies" column="_o9qVSN4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6MxQeFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6MxQuFCEeaRH9ZzTHtTXg" label="getController" column="_EvSPgN4xEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6NYUOFCEeaRH9ZzTHtTXg" label="synchCall" column="_o9qVS94rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6N_YOFCEeaRH9ZzTHtTXg" label="[param1 : String, param2 : String]" column="_o9qVTN4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6N_YeFCEeaRH9ZzTHtTXg" label="[result : Controller]" column="_o9qVTd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6OmcOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_z0ay8OYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5rz4OFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
       <semanticElements xmi:type="uml:Lifeline" href="order.uml#_kKF7sMK1Eea0j8koIuM0Zw"/>
       <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']"/>
@@ -1807,89 +1864,143 @@
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_o9qVDt4rEeaafdG6xyjDKg" label="&lt;Lifeline> MainFrameLifeline">
       <target xmi:type="uml:Lifeline" href="order.uml#_3Ui-YMK1Eea0j8koIuM0Zw"/>
-      <lines xmi:type="table:DLine" xmi:id="_4Y5-IN4vEeaafdG6xyjDKg" label="&lt;Message> getInput_call">
+      <lines xmi:type="table:DLine" xmi:id="_p5tpEOFCEeaRH9ZzTHtTXg" label="&lt;Message> getInput_call">
         <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4ZOHMN4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6RCsOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZOuQN4vEeaafdG6xyjDKg" label="3" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6RpwOFCEeaRH9ZzTHtTXg" label="3" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZOuQd4vEeaafdG6xyjDKg" label="MainFrame" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6RpweFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZOuQt4vEeaafdG6xyjDKg" label="Controller" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6SQ0OFCEeaRH9ZzTHtTXg" label="Controller" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZPVUN4vEeaafdG6xyjDKg" label="synchCall" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6SQ0eFCEeaRH9ZzTHtTXg" label="getInput" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZPVUd4vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6SQ0uFCEeaRH9ZzTHtTXg" label="synchCall" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZPVUt4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6SQ0-FCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZPVU94vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6SQ1OFCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvWg8N4xEeaafdG6xyjDKg" label="getInput" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6S34OFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y5-Id4vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_z0fEYOYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5uQIOFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
-      <lines xmi:type="table:DLine" xmi:id="_4Y5-It4vEeaafdG6xyjDKg" label="&lt;Message> getUserInput_return">
+      <lines xmi:type="table:DLine" xmi:id="_p5uQIeFCEeaRH9ZzTHtTXg" label="&lt;Message> getUserInput_return">
         <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4ZP8YN4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Te8OFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZP8Yd4vEeaafdG6xyjDKg" label="6" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6Te8eFCEeaRH9ZzTHtTXg" label="6" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZP8Yt4vEeaafdG6xyjDKg" label="MainFrame" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6UGAOFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZP8Y94vEeaafdG6xyjDKg" label="AddMovies" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6VUIOFCEeaRH9ZzTHtTXg" label="AddMovies" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZQjcN4vEeaafdG6xyjDKg" label="reply" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6V7MOFCEeaRH9ZzTHtTXg" label="getUserInput" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZQjcd4vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6WiQOFCEeaRH9ZzTHtTXg" label="reply" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZQjct4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6WiQeFCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZRKgN4vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6XJUOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvXIAN4xEeaafdG6xyjDKg" label="getUserInput" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6XJUeFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y5-I94vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_z0iHsOYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5u3MOFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_p5u3MeFCEeaRH9ZzTHtTXg" label="&lt;Message> getController_return">
+        <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
+        <cells xmi:type="table:DCell" xmi:id="_p6XwYOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6YXcOFCEeaRH9ZzTHtTXg" label="8" column="_o9qVRt4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6YXceFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSN4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-gOFCEeaRH9ZzTHtTXg" label="AddMovies" column="_o9qVSd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-geFCEeaRH9ZzTHtTXg" label="getController" column="_EvSPgN4xEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-guFCEeaRH9ZzTHtTXg" label="reply" column="_o9qVS94rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-g-FCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-hOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_p6Y-heFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_z0j84OYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5u3MuFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
       <semanticElements xmi:type="uml:Lifeline" href="order.uml#_3Ui-YMK1Eea0j8koIuM0Zw"/>
       <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']"/>
@@ -1925,95 +2036,103 @@
           <target xmi:type="uml:StateInvariant" href="order.uml#_339CoN4uEeaafdG6xyjDKg"/>
           <semanticElements xmi:type="uml:StateInvariant" href="order.uml#_339CoN4uEeaafdG6xyjDKg"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_siLgYN4yEeaafdG6xyjDKg" label="&lt;Constraint>" column="_sh3-YN4yEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_siLgYN4yEeaafdG6xyjDKg" label="title != star wars" column="_sh3-YN4yEeaafdG6xyjDKg">
           <target xmi:type="uml:StateInvariant" href="order.uml#_339CoN4uEeaafdG6xyjDKg"/>
           <semanticElements xmi:type="uml:StateInvariant" href="order.uml#_339CoN4uEeaafdG6xyjDKg"/>
         </cells>
         <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_C2SGgd4xEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" foregroundColor="255,255,255" backgroundColor="114,159,207"/>
       </lines>
-      <lines xmi:type="table:DLine" xmi:id="_4Y7MQN4vEeaafdG6xyjDKg" label="&lt;Message> askUser">
+      <lines xmi:type="table:DLine" xmi:id="_p5wsYOFCEeaRH9ZzTHtTXg" label="&lt;Message> askUser">
         <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4ZUN0N4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6bawOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZUN0d4vEeaafdG6xyjDKg" label="4" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6cB0OFCEeaRH9ZzTHtTXg" label="4" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZUN0t4vEeaafdG6xyjDKg" label="Controller" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6cB0eFCEeaRH9ZzTHtTXg" label="Controller" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZU04N4vEeaafdG6xyjDKg" label="" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6co4OFCEeaRH9ZzTHtTXg" label="" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZU04d4vEeaafdG6xyjDKg" label="asynchSignal" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6co4eFCEeaRH9ZzTHtTXg" label="askUser" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZU04t4vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6d3AOFCEeaRH9ZzTHtTXg" label="asynchSignal" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZVb8N4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6eeEOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZVb8d4vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6eeEeFCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvY9MN4xEeaafdG6xyjDKg" label="askUser" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6fFIOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y7MQd4vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_z04F8OYJEeapNuX70s7GQg" label="lost" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5xTcOFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
-      <lines xmi:type="table:DLine" xmi:id="_4Y7MQt4vEeaafdG6xyjDKg" label="&lt;Message> getInput_return">
+      <lines xmi:type="table:DLine" xmi:id="_p5xTceFCEeaRH9ZzTHtTXg" label="&lt;Message> getInput_return">
         <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']/@ownedSubLines[name='Message%20Lines']"/>
-        <cells xmi:type="table:DCell" xmi:id="_4ZWDAN4vEeaafdG6xyjDKg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6gTQOFCEeaRH9ZzTHtTXg" label="OrderTestDiagram1" column="_o9qVRd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZWDAd4vEeaafdG6xyjDKg" label="5" column="_o9qVRt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6gTQeFCEeaRH9ZzTHtTXg" label="5" column="_o9qVRt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZWqEN4vEeaafdG6xyjDKg" label="Controller" column="_o9qVSN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6g6UOFCEeaRH9ZzTHtTXg" label="Controller" column="_o9qVSN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZWqEd4vEeaafdG6xyjDKg" label="MainFrame" column="_o9qVSd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6g6UeFCEeaRH9ZzTHtTXg" label="MainFrame" column="_o9qVSd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZWqEt4vEeaafdG6xyjDKg" label="reply" column="_o9qVS94rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6hhYOFCEeaRH9ZzTHtTXg" label="getInput" column="_EvSPgN4xEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZXRIN4vEeaafdG6xyjDKg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6hhYeFCEeaRH9ZzTHtTXg" label="reply" column="_o9qVS94rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZXRId4vEeaafdG6xyjDKg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6hhYuFCEeaRH9ZzTHtTXg" label="" column="_o9qVTN4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_4ZXRIt4vEeaafdG6xyjDKg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6hhY-FCEeaRH9ZzTHtTXg" label="" column="_o9qVTd4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <cells xmi:type="table:DCell" xmi:id="_EvaLUN4xEeaafdG6xyjDKg" label="getInput" column="_EvSPgN4xEeaafdG6xyjDKg">
+        <cells xmi:type="table:DCell" xmi:id="_p6iIcOFCEeaRH9ZzTHtTXg" label="" column="_o9qVTt4rEeaafdG6xyjDKg">
           <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_4Y7zUN4vEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
+        <cells xmi:type="table:DCell" xmi:id="_z07JQOYJEeapNuX70s7GQg" label="complete" column="_zzV04OYJEeapNuX70s7GQg">
+          <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_p5xTcuFCEeaRH9ZzTHtTXg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
       <semanticElements xmi:type="uml:Lifeline" href="order.uml#_Gbu_8MK2Eea0j8koIuM0Zw"/>
       <originMapping xmi:type="description_1:LineMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedLineMappings[name='Lifeline%20Lines']"/>
@@ -2035,34 +2154,37 @@
       </cells>
       <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_2xX8cN4rEeaafdG6xyjDKg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" foregroundColor="255,255,255" backgroundColor="39,76,114"/>
     </lines>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVRd4rEeaafdG6xyjDKg" label="Diagram" cells="_o9qVCt4rEeaafdG6xyjDKg _o9qVKt4rEeaafdG6xyjDKg _o9qVQd4rEeaafdG6xyjDKg _4Y8aYN4vEeaafdG6xyjDKg _4ZJOsN4vEeaafdG6xyjDKg _4ZOHMN4vEeaafdG6xyjDKg _4ZP8YN4vEeaafdG6xyjDKg _4ZUN0N4vEeaafdG6xyjDKg _4ZWDAN4vEeaafdG6xyjDKg _C2e60N4xEeaafdG6xyjDKg" width="114" featureName="owner">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVRd4rEeaafdG6xyjDKg" label="Diagram" cells="_o9qVCt4rEeaafdG6xyjDKg _o9qVKt4rEeaafdG6xyjDKg _o9qVQd4rEeaafdG6xyjDKg _C2e60N4xEeaafdG6xyjDKg _p5zvsOFCEeaRH9ZzTHtTXg _p6GqoOFCEeaRH9ZzTHtTXg _p6MKMOFCEeaRH9ZzTHtTXg _p6RCsOFCEeaRH9ZzTHtTXg _p6Te8OFCEeaRH9ZzTHtTXg _p6XwYOFCEeaRH9ZzTHtTXg _p6bawOFCEeaRH9ZzTHtTXg _p6gTQOFCEeaRH9ZzTHtTXg" width="114" featureName="owner">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Diagram%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVRt4rEeaafdG6xyjDKg" label="Message Order" cells="_o9qVC94rEeaafdG6xyjDKg _o9qVK94rEeaafdG6xyjDKg _o9qVQt4rEeaafdG6xyjDKg _4Y9BcN4vEeaafdG6xyjDKg _4ZJOsd4vEeaafdG6xyjDKg _4ZOuQN4vEeaafdG6xyjDKg _4ZP8Yd4vEeaafdG6xyjDKg _4ZUN0d4vEeaafdG6xyjDKg _4ZWDAd4vEeaafdG6xyjDKg" width="85" featureName="interaction">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVRt4rEeaafdG6xyjDKg" label="Message Order" cells="_o9qVC94rEeaafdG6xyjDKg _o9qVK94rEeaafdG6xyjDKg _o9qVQt4rEeaafdG6xyjDKg _p5zvseFCEeaRH9ZzTHtTXg _p6HRsOFCEeaRH9ZzTHtTXg _p6MKMeFCEeaRH9ZzTHtTXg _p6RpwOFCEeaRH9ZzTHtTXg _p6Te8eFCEeaRH9ZzTHtTXg _p6YXcOFCEeaRH9ZzTHtTXg _p6cB0OFCEeaRH9ZzTHtTXg _p6gTQeFCEeaRH9ZzTHtTXg" width="85" featureName="interaction">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Message%20Order%20Column']"/>
     </columns>
     <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVR94rEeaafdG6xyjDKg" label="Class" cells="_o9qVDN4rEeaafdG6xyjDKg _o9qVLN4rEeaafdG6xyjDKg _o9qVQ94rEeaafdG6xyjDKg" width="68" featureName="represents">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Class%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVSN4rEeaafdG6xyjDKg" label="From" cells="_4Y9Bcd4vEeaafdG6xyjDKg _4ZJ1wN4vEeaafdG6xyjDKg _4ZOuQd4vEeaafdG6xyjDKg _4ZP8Yt4vEeaafdG6xyjDKg _4ZUN0t4vEeaafdG6xyjDKg _4ZWqEN4vEeaafdG6xyjDKg" width="68" featureName="sendEvent">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVSN4rEeaafdG6xyjDKg" label="From" cells="_p50WwOFCEeaRH9ZzTHtTXg _p6JG4OFCEeaRH9ZzTHtTXg _p6MxQOFCEeaRH9ZzTHtTXg _p6RpweFCEeaRH9ZzTHtTXg _p6UGAOFCEeaRH9ZzTHtTXg _p6YXceFCEeaRH9ZzTHtTXg _p6cB0eFCEeaRH9ZzTHtTXg _p6g6UOFCEeaRH9ZzTHtTXg" width="68" featureName="sendEvent">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='From%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVSd4rEeaafdG6xyjDKg" label="To" cells="_4Y9ogN4vEeaafdG6xyjDKg _4ZJ1wd4vEeaafdG6xyjDKg _4ZOuQt4vEeaafdG6xyjDKg _4ZP8Y94vEeaafdG6xyjDKg _4ZU04N4vEeaafdG6xyjDKg _4ZWqEd4vEeaafdG6xyjDKg" width="68" featureName="receiveEvent">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVSd4rEeaafdG6xyjDKg" label="To" cells="_p52L8OFCEeaRH9ZzTHtTXg _p6JG4eFCEeaRH9ZzTHtTXg _p6MxQeFCEeaRH9ZzTHtTXg _p6SQ0OFCEeaRH9ZzTHtTXg _p6VUIOFCEeaRH9ZzTHtTXg _p6Y-gOFCEeaRH9ZzTHtTXg _p6co4OFCEeaRH9ZzTHtTXg _p6g6UeFCEeaRH9ZzTHtTXg" width="68" featureName="receiveEvent">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='To%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_EvSPgN4xEeaafdG6xyjDKg" label="Message" cells="_EvTdoN4xEeaafdG6xyjDKg _EvUEsN4xEeaafdG6xyjDKg _EvWg8N4xEeaafdG6xyjDKg _EvXIAN4xEeaafdG6xyjDKg _EvY9MN4xEeaafdG6xyjDKg _EvaLUN4xEeaafdG6xyjDKg" width="77" featureName="signature">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_EvSPgN4xEeaafdG6xyjDKg" label="Message" cells="_p52zAOFCEeaRH9ZzTHtTXg _p6Jt8OFCEeaRH9ZzTHtTXg _p6MxQuFCEeaRH9ZzTHtTXg _p6SQ0eFCEeaRH9ZzTHtTXg _p6V7MOFCEeaRH9ZzTHtTXg _p6Y-geFCEeaRH9ZzTHtTXg _p6co4eFCEeaRH9ZzTHtTXg _p6hhYOFCEeaRH9ZzTHtTXg" width="77" featureName="signature">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Message%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVS94rEeaafdG6xyjDKg" label="Message Type" cells="_4Y9ogd4vEeaafdG6xyjDKg _4ZJ1wt4vEeaafdG6xyjDKg _4ZPVUN4vEeaafdG6xyjDKg _4ZQjcN4vEeaafdG6xyjDKg _4ZU04d4vEeaafdG6xyjDKg _4ZWqEt4vEeaafdG6xyjDKg" width="80" featureName="messageSort">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_zzV04OYJEeapNuX70s7GQg" label="Message Kind" cells="_zz4AYOYJEeapNuX70s7GQg _z0YWsOYJEeapNuX70s7GQg _z0ay8OYJEeapNuX70s7GQg _z0fEYOYJEeapNuX70s7GQg _z0iHsOYJEeapNuX70s7GQg _z0j84OYJEeapNuX70s7GQg _z04F8OYJEeapNuX70s7GQg _z07JQOYJEeapNuX70s7GQg" width="78" featureName="messageKind">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Message%20Kind%20Column']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVS94rEeaafdG6xyjDKg" label="Message Sort" cells="_p54oMOFCEeaRH9ZzTHtTXg _p6Jt8eFCEeaRH9ZzTHtTXg _p6NYUOFCEeaRH9ZzTHtTXg _p6SQ0uFCEeaRH9ZzTHtTXg _p6WiQOFCEeaRH9ZzTHtTXg _p6Y-guFCEeaRH9ZzTHtTXg _p6d3AOFCEeaRH9ZzTHtTXg _p6hhYeFCEeaRH9ZzTHtTXg" width="80" featureName="messageSort">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Message%20Sort%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTN4rEeaafdG6xyjDKg" label="Parameter" cells="_4Y-2oN4vEeaafdG6xyjDKg _4ZJ1w94vEeaafdG6xyjDKg _4ZPVUd4vEeaafdG6xyjDKg _4ZQjcd4vEeaafdG6xyjDKg _4ZU04t4vEeaafdG6xyjDKg _4ZXRIN4vEeaafdG6xyjDKg" width="184" featureName="sendEvent">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTN4rEeaafdG6xyjDKg" label="Parameter" cells="_p54oMeFCEeaRH9ZzTHtTXg _p6Jt8uFCEeaRH9ZzTHtTXg _p6N_YOFCEeaRH9ZzTHtTXg _p6SQ0-FCEeaRH9ZzTHtTXg _p6WiQeFCEeaRH9ZzTHtTXg _p6Y-g-FCEeaRH9ZzTHtTXg _p6eeEOFCEeaRH9ZzTHtTXg _p6hhYuFCEeaRH9ZzTHtTXg" width="184" featureName="sendEvent">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Parameter%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTd4rEeaafdG6xyjDKg" label="Return" cells="_4Y_dsN4vEeaafdG6xyjDKg _4ZKc0N4vEeaafdG6xyjDKg _4ZPVUt4vEeaafdG6xyjDKg _4ZQjct4vEeaafdG6xyjDKg _4ZVb8N4vEeaafdG6xyjDKg _4ZXRId4vEeaafdG6xyjDKg" width="105" featureName="sendEvent">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTd4rEeaafdG6xyjDKg" label="Return" cells="_p54oMuFCEeaRH9ZzTHtTXg _p6Jt8-FCEeaRH9ZzTHtTXg _p6N_YeFCEeaRH9ZzTHtTXg _p6SQ1OFCEeaRH9ZzTHtTXg _p6XJUOFCEeaRH9ZzTHtTXg _p6Y-hOFCEeaRH9ZzTHtTXg _p6eeEeFCEeaRH9ZzTHtTXg _p6hhY-FCEeaRH9ZzTHtTXg" width="105" featureName="sendEvent">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Return%20Column']"/>
     </columns>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTt4rEeaafdG6xyjDKg" label="Destruct" cells="_o9qVDd4rEeaafdG6xyjDKg _o9qVLd4rEeaafdG6xyjDKg _o9qVRN4rEeaafdG6xyjDKg _4Y_dsd4vEeaafdG6xyjDKg _4ZKc0d4vEeaafdG6xyjDKg _4ZPVU94vEeaafdG6xyjDKg _4ZRKgN4vEeaafdG6xyjDKg _4ZVb8d4vEeaafdG6xyjDKg _4ZXRIt4vEeaafdG6xyjDKg _C2e60d4xEeaafdG6xyjDKg" width="50" featureName="owner">
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_o9qVTt4rEeaafdG6xyjDKg" label="Destruct" cells="_o9qVDd4rEeaafdG6xyjDKg _o9qVLd4rEeaafdG6xyjDKg _o9qVRN4rEeaafdG6xyjDKg _C2e60d4xEeaafdG6xyjDKg _p55PQOFCEeaRH9ZzTHtTXg _p6KVAOFCEeaRH9ZzTHtTXg _p6OmcOFCEeaRH9ZzTHtTXg _p6S34OFCEeaRH9ZzTHtTXg _p6XJUeFCEeaRH9ZzTHtTXg _p6Y-heFCEeaRH9ZzTHtTXg _p6fFIOFCEeaRH9ZzTHtTXg _p6iIcOFCEeaRH9ZzTHtTXg" width="50" featureName="owner">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='LifelineView']/@ownedColumnMappings[name='Destruct%20Column']"/>
     </columns>
     <columns xmi:type="table:DFeatureColumn" xmi:id="_sh3-YN4yEeaafdG6xyjDKg" label="Constraint" cells="_siLgYN4yEeaafdG6xyjDKg" width="240" featureName="invariant">
@@ -2376,6 +2498,10 @@
         <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
       </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H2V5EOYeEea8w5-ZcigXuA" label="found" column="_HzTzMOYeEea8w5-ZcigXuA">
+        <target xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_WQPrYNl8EeaL7tBjoTNlxA"/>
+      </cells>
       <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_YEiL8OCtEeaIiLMpVNR_sg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_YEiL8eCtEeaIiLMpVNR_sg" label="&lt;Message> getUserInput_call">
@@ -2411,6 +2537,10 @@
         <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
       </cells>
       <cells xmi:type="table:DCell" xmi:id="_YEpgtOCtEeaIiLMpVNR_sg" label="" column="_6YFAA-CrEeaIiLMpVNR_sg">
+        <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H2r3UOYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
         <target xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_aYugkMK7Eea0j8koIuM0Zw"/>
       </cells>
@@ -2452,6 +2582,10 @@
         <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
       </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H2u6oOYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
+        <target xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_ZXvPgMN9Eea6QviBjNSVBA"/>
+      </cells>
       <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_YEiL9OCtEeaIiLMpVNR_sg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_YEizAOCtEeaIiLMpVNR_sg" label="&lt;Message> askUser">
@@ -2487,6 +2621,10 @@
         <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
       </cells>
       <cells xmi:type="table:DCell" xmi:id="_YEtLEOCtEeaIiLMpVNR_sg" label="" column="_6YFAA-CrEeaIiLMpVNR_sg">
+        <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H2ylAOYeEea8w5-ZcigXuA" label="lost" column="_HzTzMOYeEea8w5-ZcigXuA">
         <target xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_wyhQANvIEeaVoY1wcQVfnQ"/>
       </cells>
@@ -2528,6 +2666,10 @@
         <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
       </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H22PYOYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
+        <target xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_p-2LsMN9Eea6QviBjNSVBA"/>
+      </cells>
       <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_YEizA-CtEeaIiLMpVNR_sg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_YEizBOCtEeaIiLMpVNR_sg" label="&lt;Message> getUserInput_return">
@@ -2563,6 +2705,10 @@
         <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
       </cells>
       <cells xmi:type="table:DCell" xmi:id="_YEvnVeCtEeaIiLMpVNR_sg" label="" column="_6YFAA-CrEeaIiLMpVNR_sg">
+        <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
+        <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_H24roOYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
         <target xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
         <semanticElements xmi:type="uml:Message" href="order.uml#_1eLD4MK7Eea0j8koIuM0Zw"/>
       </cells>
@@ -2606,6 +2752,10 @@
           <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
         </cells>
+        <cells xmi:type="table:DCell" xmi:id="_H27H4OYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
+          <target xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_PvAlUMK6Eea0j8koIuM0Zw"/>
+        </cells>
         <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_nW2qAOCuEeaIiLMpVNR_sg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
       <lines xmi:type="table:DLine" xmi:id="_ZDvmMOCtEeaIiLMpVNR_sg" label="&lt;Message> getController_return">
@@ -2644,6 +2794,10 @@
           <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
           <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
         </cells>
+        <cells xmi:type="table:DCell" xmi:id="_H2-LMOYeEea8w5-ZcigXuA" label="complete" column="_HzTzMOYeEea8w5-ZcigXuA">
+          <target xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+          <semanticElements xmi:type="uml:Message" href="order.uml#_e9_4AMK6Eea0j8koIuM0Zw"/>
+        </cells>
         <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_nW2qAeCuEeaIiLMpVNR_sg" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="194,239,255"/>
       </lines>
       <semanticElements xmi:type="uml:CombinedFragment" href="order.uml#_nTcRAOCrEeaIiLMpVNR_sg"/>
@@ -2678,6 +2832,9 @@
     </columns>
     <columns xmi:type="table:DFeatureColumn" xmi:id="_6YFAAOCrEeaIiLMpVNR_sg" label="Message" cells="_6YE_2-CrEeaIiLMpVNR_sg _YEnrgeCtEeaIiLMpVNR_sg _YEpgseCtEeaIiLMpVNR_sg _YEqu0-CtEeaIiLMpVNR_sg _YEskAuCtEeaIiLMpVNR_sg _YEuZMOCtEeaIiLMpVNR_sg _YEvnUuCtEeaIiLMpVNR_sg _ZD2T4-CtEeaIiLMpVNR_sg" width="75" featureName="signature">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='TestView']/@ownedColumnMappings[name='Message']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_HzTzMOYeEea8w5-ZcigXuA" label="Message Kind" cells="_H2V5EOYeEea8w5-ZcigXuA _H2r3UOYeEea8w5-ZcigXuA _H2u6oOYeEea8w5-ZcigXuA _H2ylAOYeEea8w5-ZcigXuA _H22PYOYeEea8w5-ZcigXuA _H24roOYeEea8w5-ZcigXuA _H27H4OYeEea8w5-ZcigXuA _H2-LMOYeEea8w5-ZcigXuA" width="78" featureName="messageKind">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='TestView']/@ownedColumnMappings[name='Message%20Kind%20Column']"/>
     </columns>
     <columns xmi:type="table:DFeatureColumn" xmi:id="_6YFAAeCrEeaIiLMpVNR_sg" label="Message Kind" cells="_6YE_3OCrEeaIiLMpVNR_sg _YEnrguCtEeaIiLMpVNR_sg _YEpgsuCtEeaIiLMpVNR_sg _YErV4OCtEeaIiLMpVNR_sg _YEskA-CtEeaIiLMpVNR_sg _YEuZMeCtEeaIiLMpVNR_sg _YEvnU-CtEeaIiLMpVNR_sg _ZD2T5OCtEeaIiLMpVNR_sg" width="78" featureName="messageSort">
       <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/resource/SequenceViewer/description/SequenceViewer.odesign#//@ownedViewpoints[name='SequenceViewerVP']/@ownedRepresentations[name='TestView']/@ownedColumnMappings[name='Message%20Sort']"/>
